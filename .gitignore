@@ -15,4 +15,4 @@ cmake-build-*/
 *.swp
 
 # Test file
-test.txt
+.test.txt
