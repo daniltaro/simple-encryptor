@@ -3,6 +3,6 @@ project(simple_encryptor)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(simple_encryptor main.cpp
-        cryption/Crypt.cpp
+add_executable(simple_encryptor src/main.cpp
+        src/cryption/Crypt.cpp
 )
