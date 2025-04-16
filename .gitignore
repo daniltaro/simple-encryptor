@@ -1,0 +1,15 @@
+# Build
+cmake-build-*/
+
+# IDE
+.idea/
+.vscode/
+
+# System
+.DS_Store
+
+# Temporary files
+*.log
+*.o
+*.out
+*.swp

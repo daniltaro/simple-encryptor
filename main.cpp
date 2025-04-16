@@ -2,12 +2,11 @@
 #include <iostream>
 
 int main() {
-    std::string file_path;
-    std::fstream f_stream;
-    int status;
-    int key;
-
     try {
+        int key;
+        int status;
+        std::fstream f_stream;
+        std::string file_path;
         std::cout << "Enter the file path: ";
         std::getline(std::cin, file_path);
 

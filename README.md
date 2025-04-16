@@ -1,9 +1,30 @@
-# simple Encryptor
+# Simple Encryptor
 
-A small C++ project for encrypting and decrypting files.
+A lightweight C++ tool for encrypting and decrypting binary files using a custom Caesar-like cipher.
 
-## What's inside
+## Features
 
-The program consists of the following files:
-- `main.cpp` — entry point
-- `crypt.cpp` and `crypt.h` — implementation of encryption logic
+- Simple byte-wise encryption and decryption
+- Works with any binary file type
+- Easy to use terminal interface
+
+## Usage
+
+1. **Compile the project** using CMake or your preferred method.
+2. **Run the program** and follow the prompts:
+    - Enter the path to the file
+    - Choose to encrypt (1) or decrypt (2)
+    - Enter an integer key
+
+## Example
+
+```bash
+Enter the file path: test.txt
+Encrypt or Decrypt (1/2): 1
+Enter the key: 7
+File was encrypted
+```
+
+## Notes
+- Make sure the file is not open in another program.
+- This is a basic encryption method for educational/demo purposes only.

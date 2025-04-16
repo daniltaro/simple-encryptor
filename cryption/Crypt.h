@@ -15,7 +15,7 @@ public:
 
     void dec();
 
-    Cryption(std::fstream &&stream, std::string file, int k);
+    Cryption(std::fstream &&stream, const std::string& file, const int& k);
 
     ~Cryption();
 };

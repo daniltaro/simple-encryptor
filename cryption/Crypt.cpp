@@ -1,7 +1,7 @@
 #include "Crypt.h"
 
-Cryption::Cryption(std::fstream &&stream, std::string file, int k): f_stream(std::move(stream)), file_path(file),
-                                                                    key(k) {
+Cryption::Cryption(std::fstream &&stream, const std::string &file, const int &k): f_stream(std::move(stream)),
+    file_path(file), key(k) {
     if (!f_stream) {
         throw std::runtime_error("Invalid file stream");
     }
