@@ -13,3 +13,6 @@ cmake-build-*/
 *.o
 *.out
 *.swp
+
+# Test file
+test.txt
